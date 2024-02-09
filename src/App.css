@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #d5c2b4;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 560px;
+  gap: 10px;
+}
+
+.office{
+  max-width: 400px; /* Set maximum width */
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 25px;
+}
+.search-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 40px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.input-field{
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.search-container input{
+  background-color: #fff;
+  padding: 7px 20px;
+  border: 2px solid #dddddd;
+  margin: 0; 
+  border-radius: 7px 0 0 7px;
+}
+
+.search-container button{
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 0px 7px 7px 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+  background-color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.office{
+  width: 400px;
+}
+
+.list{
+  background-color: #fff;
+  list-style-type: none;
+  gap: 15px;
+  padding: 0;
+}
+
+.list li{
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.job-title{
+  background-color: #fff;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.salary{
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.location{
+  background-color: #fff;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
